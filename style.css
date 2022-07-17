@@ -1,0 +1,52 @@
+ 
+
+
+#clockcontainer {
+    position: relative; 
+    margin-top: 5vw;
+    margin-left: 10vw;
+   height: 40vw;
+    /* to make height and width responsive */
+    background: url(pic6.png) no-repeat;
+    
+ 
+    
+}
+
+#hour_hand {
+   position: absolute;
+    background-color: rgb(0, 0, 0);
+    width: 1%;
+    height: 15%;
+    top:30% ;
+    left:33.5%;
+border-radius: 10px;
+opacity: 0.8;
+transform-origin: bottom;
+
+}
+#minute_hand{
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    width: 0.75%;
+    height: 20%;
+    top:25% ;
+    left:33.7%;
+border-radius: 10px;
+transform-origin: bottom;
+opacity: 0.8;
+
+}
+
+#second_hand{
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    width: 0.5%;
+    height: 24%;
+    top:20% ;
+    left:33.5%;
+border-radius: 10px;
+transform-origin:bottom;
+opacity: 0.8;
+}
+
